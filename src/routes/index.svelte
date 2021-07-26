@@ -1,5 +1,5 @@
 <script>
-  import { useQuery } from '@@sveltestack/svelte-query';
+  import { useQuery } from '@sveltestack/svelte-query';
 
   const query = useQuery('test', () => null);
 </script>
