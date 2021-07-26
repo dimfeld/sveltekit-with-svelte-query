@@ -1,0 +1,22 @@
+{
+  "name": "sveltestack-with-svelte-query",
+  "version": "0.0.1",
+  "pnpm": {
+    "overrides": {
+      "broadcast-channel": "^4"
+    }
+  },
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "3.40.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltestack/svelte-query": "~1.4.1"
+  }
+}
